@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QUARKSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CUSTOMERS">
+    <Key>
+      <PropertyRef Name="CUSTOMER_ID" />
+    </Key>
+    <Property Name="CUSTOMER_ID" Type="int" Nullable="false" />
+    <Property Name="FIRST_NAME" Type="varchar" MaxLength="50" />
+    <Property Name="LAST_NAME" Type="varchar" MaxLength="50" />
+    <Property Name="MIDDLE_NAME" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="TRANSACTIONS">
+    <Key>
+      <PropertyRef Name="TRANSACTION_ID" />
+    </Key>
+    <Property Name="TRANSACTION_ID" Type="int" Nullable="false" />
+    <Property Name="TRANSACTION_AMOUNT" Type="money" />
+    <Property Name="CUSTOMER_ID" Type="int" />
+  </EntityType>
+  <Association Name="FK__TRANSACTI__CUSTO__25869641">
+    <End Role="CUSTOMERS" Type="Self.CUSTOMERS" Multiplicity="0..1" />
+    <End Role="TRANSACTIONS" Type="Self.TRANSACTIONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CUSTOMERS">
+        <PropertyRef Name="CUSTOMER_ID" />
+      </Principal>
+      <Dependent Role="TRANSACTIONS">
+        <PropertyRef Name="CUSTOMER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QUARKSModelStoreContainer">
+    <EntitySet Name="CUSTOMERS" EntityType="Self.CUSTOMERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TRANSACTIONS" EntityType="Self.TRANSACTIONS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__TRANSACTI__CUSTO__25869641" Association="Self.FK__TRANSACTI__CUSTO__25869641">
+      <End Role="CUSTOMERS" EntitySet="CUSTOMERS" />
+      <End Role="TRANSACTIONS" EntitySet="TRANSACTIONS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\bin\Debug\EntityFameworkPart3DatabaseFirst.exe.config
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\bin\Debug\EntityFameworkPart3DatabaseFirst.exe
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\bin\Debug\EntityFameworkPart3DatabaseFirst.pdb
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\bin\Debug\EntityFramework.dll
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\bin\Debug\EntityFramework.SqlServer.dll
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\bin\Debug\EntityFramework.xml
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\bin\Debug\EntityFramework.SqlServer.xml
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\obj\Debug\EntityFameworkPart3DatabaseFirst.csprojAssemblyReference.cache
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\obj\Debug\EntityFameworkPart3DatabaseFirst.csproj.CoreCompileInputs.cache
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\obj\Debug\EntityFameworkPart3DatabaseFirst.csproj.CopyComplete
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\obj\Debug\EntityFameworkPart3DatabaseFirst.exe
+F:\Programs\C#\EntityFameworkPart3DatabaseFirst\EntityFameworkPart3DatabaseFirst\obj\Debug\EntityFameworkPart3DatabaseFirst.pdb
